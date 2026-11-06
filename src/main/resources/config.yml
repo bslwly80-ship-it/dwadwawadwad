@@ -1,0 +1,40 @@
+prefix: "<gradient:#00c6ff:#0072ff><b>Xraft</b></gradient> <gray>»</gray> "
+start-balance: 0
+
+tab:
+  enabled: true
+  header: "<gradient:#00c6ff:#0072ff><b>Xraft SMP</b></gradient>\n<gray>Online: <white>%online%</white></gray>"
+  footer: "<gray>Balance: <green>$%balance%</green></gray>"
+
+rtp:
+  radius: 5000
+  min-radius: 200
+  cooldown-seconds: 30
+
+# price per item when selling
+sell-prices:
+  DIAMOND: 250
+  EMERALD: 150
+  GOLD_INGOT: 60
+  IRON_INGOT: 30
+  COAL: 8
+  WHEAT: 3
+  CARROT: 3
+  POTATO: 3
+  COBBLESTONE: 1
+  OAK_LOG: 4
+  ROTTEN_FLESH: 1
+  BONE: 2
+
+# price to buy 1 item in /shop (shift-click = 64)
+shop:
+  BREAD: 10
+  COOKED_BEEF: 25
+  GOLDEN_APPLE: 500
+  ENDER_PEARL: 150
+  OBSIDIAN: 80
+  TNT: 120
+  ARROW: 5
+  OAK_LOG: 8
+  COBBLESTONE: 2
+  DIAMOND: 600

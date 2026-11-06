@@ -1,0 +1,35 @@
+name: Xraft
+main: net.xraft.Xraft
+version: ${project.version}
+api-version: '1.21'
+author: Xraft
+description: All-in-one SMP core (economy, spawn, rtp, sell, shop, bounty, tab)
+commands:
+  balance:
+    aliases: [bal, money]
+    description: Show balance
+  pay:
+    description: Pay a player
+  eco:
+    description: Admin economy
+    permission: xraft.admin
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set the spawn
+    permission: xraft.admin
+  rtp:
+    aliases: [wild]
+    description: Random teleport
+  sell:
+    description: Sell items (/sell hand | all)
+  shop:
+    description: Open the shop
+  bounty:
+    description: Bounties (/bounty set <player> <amount> | list)
+  xraft:
+    description: Reload the plugin
+    permission: xraft.admin
+permissions:
+  xraft.admin:
+    default: op
